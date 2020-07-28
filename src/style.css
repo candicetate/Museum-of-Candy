@@ -7,6 +7,15 @@ body {
   font-size: 0.5rem;
 }
 
+#headingGroup h1 {
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+#headingGroup span {
+  color: #ba55d3;
+}
+
 #mainNav {
   font-size: 1.5rem;
   font-weight: 200;
@@ -23,4 +32,11 @@ body {
 
 #mainNav .nav-link:hover {
   color: #4b0082;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 200;
+    font-size: 2rem;
+  }
 }
